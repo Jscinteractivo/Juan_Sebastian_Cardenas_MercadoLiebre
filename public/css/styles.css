@@ -372,7 +372,6 @@ footer {
     .main-header-top-bar {
         display: flex;
         flex-wrap: wrap;
-        border: dotted 1px red; /* prueba */
         justify-content: space-between;
     }
 
@@ -408,7 +407,6 @@ footer {
 @media (min-width: 768px) {
 
     .main-header-top-bar {
-        border: dotted 1px red; /* prueba */
         justify-content: space-between;
     }
 
