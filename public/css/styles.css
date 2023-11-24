@@ -1,0 +1,534 @@
+/* ETIQUETAS UNIVERSALES */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ESTILOS CUERPO GENERAL (BODY) DEL HTML */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+/* ESTILOS HEADER */
+
+.main-header {
+    width: 100%;
+    margin: auto;
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+p {font-size: 14px;}
+
+.copy {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* aplicación de clase de selector descendente para la etiqueta <nav> */
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #03264C;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.contenedor-busqueda {
+    display: flex;
+    justify-content: center;
+}
+
+.input-search[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.input-search[type=text]:focus {
+    outline: none;
+    background-color: #C7DBFA;
+}
+
+.search-btn {
+    display: none;
+}
+
+.fa-magnifying-glass {
+    color: #03264C;
+    margin: auto;
+    font-size: 14px;
+}
+
+.fa-hand-holding-dollar {
+    padding: 0px 3px 0px 0px;
+}
+
+.fa-id-card {
+    padding: 0px 0px 0px 3px;
+}
+
+.fa-right-to-bracket {
+    padding: 0px 0px 0px 3px;
+}
+
+.fa-basket-shopping {
+    padding: 0px 0px 0px 3px;
+}
+
+.fa-bars {
+    background-color: #1259c3;
+    text-align: center;
+    font-size: 1.2rem;
+    display: block;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 40px;
+    border-radius: 5px;
+}
+
+
+/* ESTILOS BANNER SECTION */
+
+.banner-space {
+    width: 100%;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+
+/* ESTILOS MAIN */
+
+.kind-main {
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.kind-main-forms {
+    width: 80%;
+    margin: auto;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    padding: 0px;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prods-wdw {
+    width: 250px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 2px;
+    box-shadow: 0px 0px 0px #ffffff;
+    display: block;
+}
+
+.product-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caja-prods {
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    margin: auto;
+}
+
+.enlinea {
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.precios {
+    font-size: 18px;
+    flex-grow: 0.30;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    flex-grow: 0.70;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #808080;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.caja-prods > .fa-truck{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: all 500ms;
+}
+
+.fa-truck:hover {
+    transform: rotate(-90deg);
+}
+
+.caja-prods {
+    position: relative;
+}
+
+
+/* ESTILOS FOOTER */
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.fa-credit-card {
+    font-size: 2em;
+    color: #1259c3;
+    transition: all 450ms;
+}
+
+.fa-credit-card:hover {
+    color: #EAC926;
+}
+
+.fa-gift {
+    font-size: 2em;
+    color: #1259c3;
+    transition: all 450ms;
+}
+
+.fa-gift:hover {
+    color: #EAC926;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    color: #1259c3;
+    transition: all 450ms;
+}
+
+.fa-user-shield:hover {
+    color: #EAC926;
+}
+
+.titular-footer {
+    margin-bottom: -10px;
+}
+
+.s-footer {
+    padding: 30px;
+}
+
+.copy-right {
+    margin: auto;
+    font-size: 12px;
+
+}
+
+
+/* ESTILOS FORMULARIOS */
+
+.title-form {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    color: #666;
+    padding: 5px;
+}
+
+.form-shape {
+    padding: 20px 15px;
+}
+
+.form-control {
+    margin-bottom: 30px;
+}
+
+.form-control label {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #666;
+    display: block;
+}
+
+/*.form-control p {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+} Posible solución para los inputs de tipo radio y check */
+
+.control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.control:focus {
+    background-color: #C7DBFA;
+}
+
+.button-form {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-form1 {
+    background-color: #1259c3;
+    color: #ffffff;
+}
+
+.button-form1:hover {
+    background-color: #ffffff;
+    color: #1259c3;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+
+    .main-header-top-bar {
+        display: flex;
+        flex-wrap: wrap;
+        border: dotted 1px red; /* prueba */
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 180px;
+        flex-grow: 0.50;
+    }
+
+    .contenedor-busqueda {
+        flex-grow: 0.50;
+        align-self: center;
+        /*justify-content: center;*/
+    }
+
+    .copy {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .descripciones {
+        display: block;
+        opacity: 0;
+        transition: all 450ms; 
+    }
+
+    .descripciones:hover {
+        color: #666;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .main-header-top-bar {
+        border: dotted 1px red; /* prueba */
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .contenedor-busqueda {
+        width: 70px;
+    }
+
+    .input-search[type=text] {
+        width: 180px;
+        height: 24px;
+        outline: none;
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        align-self: center;
+        flex-grow: 0.80;
+    }
+
+    .search-btn {
+        border: none;
+        background-color: #ebebeb;
+        display: flex;
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        margin: auto;
+        align-items: center;
+    }
+
+    .search-btn:hover {
+        background-color: #03264C;
+    }
+
+    .fa-magnifying-glass {
+        color: #03264C;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .fa-magnifying-glass:hover {
+        color: #EAC926;
+    }
+
+    .copy {
+        max-width: 200px;
+        text-align: right;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .titulos {
+        text-align: left;
+    }
+
+    .prods-wdw {
+        box-shadow: 0px 0px 5px rgba(100, 100, 100, 0.0);
+        display: block;
+        transition: all 450ms;
+    }
+
+    .prods-wdw:hover {
+        box-shadow: 0px 0px 5px rgba(100, 100, 100, 1.0);
+    }
+
+    .fa-bars {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .contenedor-footer {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+        border: dotted 1px red; /* prueba */
+    }
+
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .copy {
+        max-width: none;
+        font-size: 20px;
+        font-weight: 400;
+        justify-content: right;
+    }
+
+    .main-navbar {
+        margin-top: 30px;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+    }
+
+    .main-navbar a {
+        font-size: 14px;
+    }
+}
