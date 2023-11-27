@@ -504,7 +504,6 @@ footer {
     .main-navbar {
         max-width: 1200px;
         margin: auto;
-        border: dotted 1px red; /* prueba */
     }
 
     .main-header-top-bar {
