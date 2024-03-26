@@ -440,6 +440,7 @@ footer {
         border-radius: 4px;
         margin: auto;
         align-items: center;
+        cursor: pointer;
     }
 
     .search-btn:hover {
