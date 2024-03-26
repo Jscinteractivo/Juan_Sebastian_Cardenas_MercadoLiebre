@@ -130,6 +130,7 @@ p {font-size: 14px;}
     width: 100%;
     margin: auto;
     background-color: #ebebeb;
+    cursor: pointer;
 }
 
 
@@ -170,6 +171,7 @@ p {font-size: 14px;}
     margin-bottom: 10px;
     padding: 2px;
     box-shadow: 0px 0px 0px #ffffff;
+    cursor: pointer;
     display: block;
 }
 
@@ -394,7 +396,7 @@ footer {
 
     .descripciones {
         display: block;
-        opacity: 0;
+        opacity: 0.5;
         transition: all 450ms; 
     }
 
